@@ -1,0 +1,547 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo-vector-icon {
+    width: 65.4px;
+    position: relative;
+    height: 22.9px;
+}
+.logo1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.logo {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.icon40pxburger {
+    width: 40px;
+    position: relative;
+    height: 40px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.header-mobile {
+    width: 375px;
+    background-color: #fff;
+    border-bottom: 1px solid #b5b5b5;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 16px;
+}
+.icon32pxarrow {
+    width: 24px;
+    position: relative;
+    height: 24px;
+}
+.filters {
+    width: 288px;
+    position: relative;
+    letter-spacing: 0.01em;
+    line-height: 32px;
+    font-weight: 500;
+    display: inline-block;
+    flex-shrink: 0;
+}
+.top {
+    width: 343px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.title {
+    flex: 1;
+    position: relative;
+    letter-spacing: 0.03em;
+    line-height: 24px;
+    font-weight: 500;
+    z-index: 0;
+}
+.expand-down-icon {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    object-fit: contain;
+    z-index: 1;
+}
+.line {
+    width: 100.15%;
+    position: absolute;
+    margin: 0 !important;
+    height: 1.04%;
+    top: 99.48%;
+    right: 0.32%;
+    bottom: -0.52%;
+    left: -0.46%;
+    border-top: 0.5px solid #b5b5b5;
+    box-sizing: border-box;
+    z-index: 2;
+}
+.dropdownrow {
+    align-self: stretch;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 12px 0px;
+    position: relative;
+}
+.span {
+    color: #000;
+}
+.from {
+    position: relative;
+    line-height: 24px;
+}
+.to {
+    position: relative;
+    line-height: 24px;
+    font-family: 'Be Vietnam Pro';
+}
+.text {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.info1 {
+    border-radius: 3px;
+    background-color: #fff;
+    border: 0.5px solid #9f9f9f;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 8px 64px 8px 8px;
+}
+.info-child {
+    width: 21px;
+    position: relative;
+    border-top: 1px solid #e7e7e7;
+    box-sizing: border-box;
+    height: 1px;
+}
+.div1 {
+    flex: 1;
+    position: relative;
+    line-height: 24px;
+}
+.info2 {
+    width: 106px;
+    border-radius: 3px;
+    background-color: #fff;
+    border: 0.5px solid #9f9f9f;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 8px;
+}
+.info {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: right;
+    color: #000;
+}
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.from-to {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.shape {
+    align-self: stretch;
+    position: relative;
+    border-radius: 60px;
+    background-color: #cecece;
+    height: 2px;
+    z-index: 0;
+}
+.shape1 {
+    flex: 1;
+    position: relative;
+    border-radius: 90px;
+    background-color: #414141;
+    height: 3px;
+    z-index: 0;
+}
+.container-child {
+    width: 12px;
+    position: absolute;
+    margin: 0 !important;
+    top: -5px;
+    left: 94px;
+    border-radius: 50%;
+    background-color: #000;
+    height: 12px;
+    z-index: 1;
+}
+.container-item {
+    width: 12px;
+    position: absolute;
+    margin: 0 !important;
+    top: -5px;
+    left: 0px;
+    border-radius: 50%;
+    background-color: #000;
+    height: 12px;
+    z-index: 2;
+}
+.container {
+    width: 106px;
+    margin: 0 !important;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.range-sliderseekbar {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px 0px;
+    position: relative;
+    gap: 10px;
+}
+.price-filter {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.price {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.icon32pxsearch {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.search {
+    position: relative;
+    line-height: 18px;
+    font-weight: 500;
+    opacity: 0.5;
+}
+.search-field {
+    align-self: stretch;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 8px 16px;
+    gap: 8px;
+}
+.done-round-child {
+    width: 4.3px;
+    position: relative;
+    height: 3.7px;
+    object-fit: contain;
+}
+.done-round {
+    border-radius: 3px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 6px;
+}
+.apple {
+    font-weight: 500;
+}
+.span1 {
+    font-size: 12px;
+    color: #929292;
+}
+.checbox-fieldcheckbox {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.done-round1 {
+    width: 16.3px;
+    border-radius: 3px;
+    border: 0.5px solid #d3d3d3;
+    box-sizing: border-box;
+    height: 15.7px;
+}
+.span2 {
+    font-size: 14px;
+}
+.apple-1104 {
+    flex: 1;
+    position: relative;
+    line-height: 24px;
+    font-weight: 500;
+}
+.brands {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+    font-size: 15px;
+    color: #000;
+}
+.searchbrands {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.scroll-child {
+    width: 2px;
+    position: relative;
+    border-radius: 2px;
+    background-color: #d9d9d9;
+    height: 336px;
+    z-index: 0;
+}
+.scroll-item {
+    width: 2px;
+    position: absolute;
+    margin: 0 !important;
+    top: 0px;
+    left: 0px;
+    border-radius: 2px;
+    background-color: #5d5d5d;
+    height: 92px;
+    z-index: 1;
+}
+.scroll {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    position: relative;
+    gap: 8px;
+}
+.content1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 24px;
+    font-size: 14px;
+    color: #656565;
+}
+.scrol-child {
+    width: 2px;
+    position: relative;
+    border-radius: 2px;
+    background-color: #d9d9d9;
+    height: 240px;
+    z-index: 0;
+}
+.scrol {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    gap: 8px;
+}
+.content2 {
+    align-self: stretch;
+    height: 256px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+    font-size: 14px;
+    color: #656565;
+}
+.expand-down-icon3 {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    z-index: 1;
+}
+.dropdowns {
+    align-self: stretch;
+    height: 244px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.filters1 {
+    width: 341px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 24px;
+    font-size: 18px;
+}
+.label {
+    position: relative;
+    line-height: 24px;
+    font-weight: 500;
+}
+.button {
+    width: 341px;
+    border-radius: 8px;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 64px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+.logo2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.we-are-a {
+    align-self: stretch;
+    position: relative;
+    line-height: 24px;
+}
+.top1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.services {
+    position: relative;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 600;
+    color: #fff;
+    text-align: left;
+}
+.bonus-program {
+    align-self: stretch;
+    position: relative;
+    line-height: 32px;
+}
+.section {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.footer-navigation {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 32px;
+    font-size: 14px;
+}
+.content3 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 32px;
+}
+.social-icons {
+    width: 173px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.footer-mobile {
+    width: 375px;
+    background-color: #181313;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 48px 32px;
+    box-sizing: border-box;
+    gap: 32px;
+    text-align: center;
+    font-size: 13px;
+    color: #cfcfcf;
+}
+.products-page-filters-mobile {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 31px;
+    text-align: left;
+    font-size: 24px;
+    color: #000;
+    font-family: Inter;
+}
+

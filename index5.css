@@ -1,0 +1,484 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#buttonContainer a {
+    color: white; /* Makes the link text white */
+    text-decoration: none; /* Removes the underline */
+  }
+  
+  #buttonContainer a:hover {
+    color: #f1f1f1; /* Optional: Slight color change on hover for better visibility */
+  }
+  
+
+.logo-vector-icon {
+    width: 65.4px;
+    position: relative;
+    height: 22.9px;
+}
+.logo1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.logo {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.icon40pxburger {
+    width: 40px;
+    position: relative;
+    height: 40px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.header-mobile {
+    width: 375px;
+    background-color: #fff;
+    border-bottom: 1px solid #b5b5b5;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 16px;
+}
+.shopping-cart {
+    align-self: stretch;
+    position: relative;
+    line-height: 24px;
+    font-weight: 600;
+}
+.product-image-icon {
+    width: 90px;
+    position: relative;
+    height: 90px;
+    object-fit: cover;
+}
+.apple-iphone-14 {
+    align-self: stretch;
+    position: relative;
+    line-height: 24px;
+    font-weight: 500;
+}
+.div {
+    align-self: stretch;
+    position: relative;
+    font-size: 14px;
+    line-height: 24px;
+}
+.info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+    min-width: 106px;
+}
+.icon24pxno-edit {
+    width: 24px;
+    position: relative;
+    height: 24px;
+}
+.div1 {
+    position: relative;
+    line-height: 16px;
+    font-weight: 500;
+}
+.number {
+    border-radius: 4px;
+    border: 0.5px solid #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+}
+.counter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.div2 {
+    position: relative;
+    font-size: 20px;
+    letter-spacing: 0.03em;
+    line-height: 32px;
+    font-weight: 500;
+    white-space: pre-wrap;
+    text-align: left;
+}
+.right-side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 24px;
+    text-align: center;
+}
+.content {
+    width: 236px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 8px 0px;
+}
+.cart-product {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 16px 0px;
+    gap: 15px;
+}
+.devider-icon {
+    align-self: stretch;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.div5 {
+    position: relative;
+    font-size: 20px;
+    letter-spacing: 0.03em;
+    line-height: 32px;
+    font-weight: 500;
+    text-align: left;
+}
+.content1 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 8px 0px;
+}
+.devider {
+    align-self: stretch;
+    position: relative;
+    border-top: 0.5px solid #a3a3a3;
+    box-sizing: border-box;
+    height: 0.5px;
+}
+.products {
+    align-self: stretch;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 40px;
+    font-size: 16px;
+}
+.left-side {
+    width: 341px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 40px;
+}
+.order-summary {
+    align-self: stretch;
+    position: relative;
+    line-height: 16px;
+}
+.your-bonus-card {
+    align-self: stretch;
+    position: relative;
+    line-height: 16px;
+    font-weight: 500;
+}
+.enter-card-number {
+    flex: 1;
+    position: relative;
+    line-height: 24px;
+}
+.field {
+    align-self: stretch;
+    border-radius: 7px;
+    background-color: #fff;
+    border: 0.5px solid #9f9f9f;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 0px 16px 16px;
+    color: #979797;
+}
+.label-field {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.apply {
+    width: 60.5px;
+    position: relative;
+    line-height: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.button {
+    width: 76.5px;
+    border-radius: 6px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    text-align: center;
+    font-size: 12px;
+    color: #000;
+}
+.fieldedittext {
+    align-self: stretch;
+    border-radius: 7px;
+    background-color: #fff;
+    border: 0.5px solid #9f9f9f;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    color: #979797;
+}
+.subtotal1 {
+    flex: 1;
+    position: relative;
+    letter-spacing: 0.03em;
+    line-height: 24px;
+    font-weight: 500;
+}
+.div9 {
+    position: relative;
+    letter-spacing: 0.03em;
+    line-height: 32px;
+    font-weight: 500;
+}
+.subtotal {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.estimated-tax {
+    flex: 1;
+    position: relative;
+    line-height: 32px;
+}
+.div10 {
+    position: relative;
+    letter-spacing: 0.03em;
+    line-height: 32px;
+    font-weight: 500;
+    color: #000;
+}
+.price {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.estimated-shipping {
+    flex: 1;
+    position: relative;
+    letter-spacing: 0.03em;
+    line-height: 32px;
+}
+.taxes {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+    color: #545454;
+}
+.prices {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    font-size: 16px;
+    color: #000;
+}
+.block {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.label {
+    position: relative;
+    line-height: 24px;
+    font-weight: 500;
+}
+.button1 {
+    align-self: stretch;
+    border-radius: 6px;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 56px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+}
+.content3 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 48px;
+    font-size: 14px;
+    color: #545454;
+}
+.summary {
+    width: 341px;
+    border-radius: 10px;
+    border: 1px solid #ebebeb;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 56px 16px;
+    gap: 40px;
+    font-size: 20px;
+    color: #111;
+}
+.logo2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.we-are-a {
+    align-self: stretch;
+    position: relative;
+    line-height: 24px;
+}
+.top {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.services {
+    position: relative;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 600;
+    color: #fff;
+    text-align: left;
+}
+.bonus-program {
+    align-self: stretch;
+    position: relative;
+    line-height: 32px;
+}
+.section {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.footer-navigation {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 32px;
+    font-size: 14px;
+}
+.content4 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 32px;
+}
+.icon16pxtwitter {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.social-icons {
+    width: 173px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.footer-mobile {
+    width: 375px;
+    background-color: #181313;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 48px 32px;
+    box-sizing: border-box;
+    gap: 32px;
+    text-align: center;
+    font-size: 13px;
+    color: #cfcfcf;
+}
+.shopping-card-mobile {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+    text-align: left;
+    font-size: 24px;
+    color: #000;
+    font-family: Inter;
+}
+

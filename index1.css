@@ -1,0 +1,825 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#buttonContainer a {
+    color: white;
+    text-decoration: none; /* Removes underline */
+  }
+  
+  #buttonContainer a:hover {
+    color: #ccc; /* Optional: Change color on hover */
+  }
+  
+
+
+.logo-vector-icon {
+    width: 65.4px;
+    position: relative;
+    height: 22.9px;
+}
+.logo1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.logo {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.icon40pxburger {
+    width: 40px;
+    position: relative;
+    height: 40px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.header-mobile {
+    width: 375px;
+    background-color: #fff;
+    border-bottom: 1px solid #b5b5b5;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 16px;
+}
+.probeyond {
+    align-self: stretch;
+    position: relative;
+    line-height: 32px;
+    font-weight: 600;
+    opacity: 0.4;
+}
+.pro {
+    font-weight: 600;
+}
+.iphone-14-pro-container {
+    align-self: stretch;
+    position: relative;
+    font-size: 72px;
+    letter-spacing: -0.01em;
+    line-height: 72px;
+}
+.created-to-change {
+    align-self: stretch;
+    position: relative;
+    font-size: 19px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #909090;
+}
+.banner-text {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.label {
+    position: relative;
+    line-height: 24px;
+    font-weight: 500;
+}
+.button {
+    border-radius: 6px;
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 56px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.content {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 32px;
+}
+.iphone-image-icon {
+    position: absolute;
+    right: 11px;
+    bottom: 0px;
+    width: 321px;
+    height: 289px;
+    object-fit: cover;
+}
+.iphone-image {
+    align-self: stretch;
+    position: relative;
+    height: 289px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.banner {
+    width: 375px;
+    background: linear-gradient(90.7deg, #211c24, #211c24);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 88px 16px 0px;
+    box-sizing: border-box;
+    gap: 48px;
+    font-size: 25px;
+    color: #fff;
+}
+.hero-gnfk5g59t0qe-xlarge-2x-1-icon {
+    width: 192px;
+    position: relative;
+    height: 200px;
+    object-fit: cover;
+}
+.apple-airpods {
+    font-weight: 300;
+    white-space: pre-wrap;
+}
+.max {
+    font-weight: 500;
+}
+.apple-airpods-max-container {
+    position: relative;
+    line-height: 40px;
+}
+.computational-audio-listen {
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #909090;
+}
+.titletext {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.banner1 {
+    align-self: stretch;
+    background-color: #ededed;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 16px;
+    gap: 24px;
+}
+.image-36-icon {
+    width: 325.9px;
+    position: relative;
+    height: 192.4px;
+    object-fit: contain;
+}
+.apple-vision {
+    font-weight: 300;
+}
+.an-immersive-way {
+    align-self: stretch;
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #909090;
+}
+.banner2 {
+    align-self: stretch;
+    background-color: #353535;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 16px;
+    gap: 24px;
+    color: #fff;
+}
+.playstation-icon {
+    width: 200px;
+    position: relative;
+    height: 200px;
+    object-fit: cover;
+}
+.banner3 {
+    align-self: stretch;
+    background-color: #fff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 16px;
+    gap: 24px;
+}
+.macbook-pro-14 {
+    width: 330.5px;
+    position: relative;
+    height: 200px;
+    object-fit: cover;
+}
+.macbook-air {
+    position: relative;
+    font-size: 34px;
+    line-height: 40px;
+}
+.the-new-15inch {
+    align-self: stretch;
+    position: relative;
+    line-height: 24px;
+    font-weight: 500;
+    color: #909090;
+}
+.button1 {
+    align-self: stretch;
+    border-radius: 6px;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 56px;
+}
+.titletext3 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.banner4 {
+    align-self: stretch;
+    background-color: #ededed;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 16px;
+    gap: 24px;
+    font-size: 16px;
+}
+.banners {
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 34px;
+}
+.browse-by-category {
+    width: 288px;
+    position: relative;
+    letter-spacing: 0.01em;
+    line-height: 32px;
+    font-weight: 500;
+    display: inline-block;
+    flex-shrink: 0;
+}
+.icon32pxarrow {
+    width: 32px;
+    position: relative;
+    height: 32px;
+}
+.icon32pxarrow1 {
+    width: 32px;
+    position: relative;
+    height: 32px;
+    object-fit: contain;
+}
+.arrows {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.top {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.iconphones {
+    width: 48px;
+    position: relative;
+    height: 48px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.category-card {
+    flex: 1;
+    border-radius: 15px;
+    background-color: #ededed;
+    height: 128px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 52px;
+    box-sizing: border-box;
+    gap: 8px;
+    min-width: 135px;
+    cursor: pointer;
+}
+.vector-icon {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vector-icon1 {
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    top: 25%;
+    right: 25%;
+    bottom: 25%;
+    left: 25%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vector-icon2 {
+    position: absolute;
+    height: 12.5%;
+    width: 25%;
+    top: 75%;
+    right: 37.5%;
+    bottom: 12.5%;
+    left: 37.5%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vector-icon3 {
+    position: absolute;
+    height: 12.5%;
+    width: 25%;
+    top: 12.5%;
+    right: 37.5%;
+    bottom: 75%;
+    left: 37.5%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.frame-child {
+    width: 2px;
+    position: relative;
+    border-right: 2px solid #000;
+    box-sizing: border-box;
+    height: 15px;
+}
+.frame-item {
+    width: 2px;
+    position: relative;
+    border-right: 2px solid #000;
+    box-sizing: border-box;
+    height: 10px;
+}
+.frame-inner {
+    width: 2px;
+    position: relative;
+    border-right: 2px solid #000;
+    box-sizing: border-box;
+    height: 12px;
+}
+.line-parent {
+    position: absolute;
+    height: 23.13%;
+    width: 17.92%;
+    top: 39.29%;
+    right: 41.01%;
+    bottom: 37.59%;
+    left: 41.07%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 4px;
+}
+.category-card1 {
+    flex: 1;
+    border-radius: 15px;
+    background-color: #ededed;
+    height: 128px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 52px;
+    box-sizing: border-box;
+    gap: 8px;
+    min-width: 135px;
+}
+.categories1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 16px;
+    text-align: center;
+    font-size: 16px;
+}
+.categories {
+    width: 375px;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 64px 16px;
+    box-sizing: border-box;
+    gap: 48px;
+    text-align: left;
+}
+.new-arrival {
+    position: relative;
+    line-height: 32px;
+    font-weight: 500;
+}
+.selected-child {
+    align-self: stretch;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.selected {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: #000;
+}
+.featured-products {
+    position: relative;
+    line-height: 32px;
+    font-weight: 500;
+    text-align: left;
+}
+.tags {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 32px;
+}
+.top-section {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+.iphone-14-pro-1 {
+    width: 104px;
+    position: relative;
+    height: 104px;
+    object-fit: cover;
+}
+.div {
+    align-self: stretch;
+    position: relative;
+    font-size: 24px;
+    letter-spacing: 0.03em;
+    line-height: 24px;
+    font-weight: 600;
+}
+.button2 {
+    align-self: stretch;
+    border-radius: 8px;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 64px;
+    font-size: 14px;
+    color: #fff;
+}
+.texticon {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.product-card-mobile {
+    flex: 1;
+    border-radius: 9px;
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 24px 12px;
+    gap: 8px;
+}
+.pair {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 16px;
+}
+.airpods-max-silver {
+    margin: 0;
+}
+.apple-iphone-14-container {
+    align-self: stretch;
+    position: relative;
+    line-height: 24px;
+    font-weight: 500;
+    display: -webkit-inline-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.products-grid {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    color: #000;
+}
+.products {
+    width: 375px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 56px 16px;
+    box-sizing: border-box;
+    gap: 32px;
+    font-size: 16px;
+    color: #8b8b8b;
+}
+.image-64-icon {
+    width: 321px;
+    position: relative;
+    height: 331px;
+    object-fit: cover;
+}
+.ipad-pro {
+    align-self: stretch;
+    position: relative;
+    line-height: 48px;
+    font-weight: 300;
+}
+.ipad-combines-a {
+    align-self: stretch;
+    position: relative;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #909090;
+}
+.button10 {
+    border-radius: 6px;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 56px;
+    font-size: 16px;
+}
+.titletext4 {
+    align-self: stretch;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 16px;
+}
+.ellipse-div {
+    width: 8px;
+    position: relative;
+    border-radius: 50%;
+    background-color: #000;
+    height: 8px;
+}
+.frame-child1 {
+    width: 8px;
+    position: relative;
+    border-radius: 50%;
+    background-color: #000;
+    height: 8px;
+    opacity: 0.1;
+}
+.ellipse-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 9px;
+}
+.big-banner {
+    width: 375px;
+    background-color: #f9f9f9;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 56px 32px;
+    box-sizing: border-box;
+    gap: 48px;
+    min-width: 280px;
+    font-size: 49px;
+}
+.products-grid1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    font-size: 16px;
+}
+.discount-products {
+    width: 375px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 56px 16px;
+    box-sizing: border-box;
+    gap: 32px;
+}
+.big-summer {
+    font-weight: 100;
+}
+.big-summer-sale-container {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.01em;
+    line-height: 72px;
+}
+.commodo-fames-vitae {
+    align-self: stretch;
+    position: relative;
+    font-size: 16px;
+    line-height: 32px;
+    color: #787878;
+}
+.titles {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.button15 {
+    border-radius: 6px;
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 56px;
+    font-size: 16px;
+}
+.content1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+}
+.banner-2 {
+    width: 375px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 104px 16px;
+    box-sizing: border-box;
+    background-image: url('Banner 2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    font-size: 48px;
+    color: #fff;
+}
+.logo2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.we-are-a {
+    align-self: stretch;
+    position: relative;
+    line-height: 24px;
+}
+.services {
+    position: relative;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 600;
+    color: #fff;
+    text-align: left;
+}
+.bonus-program {
+    align-self: stretch;
+    position: relative;
+    line-height: 32px;
+}
+.section {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.footer-navigation {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 32px;
+    font-size: 14px;
+}
+.icon16pxtwitter {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.social-icons {
+    width: 173px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.footer-mobile {
+    width: 375px;
+    background-color: #181313;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 48px 32px;
+    box-sizing: border-box;
+    gap: 32px;
+    font-size: 13px;
+    color: #cfcfcf;
+}
+.home-mobile {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: center;
+    font-size: 24px;
+    color: #000;
+    font-family: Inter;
+}
+
